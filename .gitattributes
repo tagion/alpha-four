@@ -1,0 +1,5 @@
+bin/tagionwallet filter=lfs diff=lfs merge=lfs -text
+bin/tagionwave filter=lfs diff=lfs merge=lfs -text
+bin/dartutil filter=lfs diff=lfs merge=lfs -text
+bin/hibonutil filter=lfs diff=lfs merge=lfs -text
+bin/tagionutil filter=lfs diff=lfs merge=lfs -text
