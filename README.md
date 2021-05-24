@@ -34,6 +34,8 @@ To start the local network:
 docker rm alpha4 &> /dev/null && docker run --name=alpha4 -ti tagion/tagion_alphafour tagionwave --loops 0
 ```
 
+You have to wait 1 minute before the network starts.
+
 To create a wallet and do some transfers in the network, attach to a running container:
 
 ```bash
