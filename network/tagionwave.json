@@ -11,7 +11,7 @@
             "max_size": 102400,
             "timeout": 3000
         },
-        "initialize": true,
+        "initialize": false,
         "master_from_port": true,
         "name": "dart",
         "path": ".\/data\/%dir%\/dart.drt",
@@ -56,7 +56,7 @@
     },
     "delay": 200,
     "discovery": {
-        "delay_before_start": 60000,
+        "delay_before_start": 5000,
         "host": {
             "max_size": 102400,
             "timeout": 3000
@@ -116,7 +116,7 @@
     "seed": 42,
     "separator": "_",
     "serverFileDiscovery": {
-        "delay_before_start": 60000,
+        "delay_before_start": 5000,
         "tag": "tag-1",
         "task_name": "server_file_discovery",
         "token": "",
